@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = function (data) {
   let hasil = [];
   for (var belanja = 0; belanja < data.length; belanja++) {
-    let isi = "-" + " " + data[belanja].nama + " jumlah " + data[belanja].kuantitas + " " + "item";
+    let isi = "-" + " " + data[belanja].nama + " x " + data[belanja].kuantitas + " " + "item";
     hasil.push(isi);
   }
   return hasil;
